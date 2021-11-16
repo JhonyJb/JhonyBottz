@@ -147,12 +147,12 @@ var qr_code_ovo = 'https://h.top4top.io/p_2053vk0uw1.jpg' //gk usah di ubah ya k
 var qr_code_dana = 'https://j.top4top.io/p_20532posd1.jpg' //gk usah di ubah ya klo gk punya ntr eror
 var qr_code_gopay = 'https://i.top4top.io/p_2053em3vh1.jpg' //gk usah di ubah ya klo gk punya ntr eror
 
-var _minggu = 'Rp 10.000,00' //Masukkan harga sewa sesuai keinginan
-var __minggu = 'Rp 15.000,00'
-var ___minggu = 'Rp 20.000,00'
-var _bulan = 'Rp 22.000,00'
-var _permanen = 'Rp 100.000,00'
-var __permanen = 'Rp 150.000,00'
+var _minggu = 'Rp 2.000' //Masukkan harga sewa sesuai keinginan
+var __minggu = 'Rp 3.000'
+var ___minggu = 'Rp 4.0000'
+var _bulan = 'Rp 5.000'
+var _permanen = 'Rp 7.000'
+var __permanen = 'Rp 10.000'
 
 zeksApikey = 'Alphabott' //ganti pake apikey lu biar limitnya gk cepet abis 
 ApiZeks = 'https://api.zeks.me' // regis disini klo mau dapat apikeynya
@@ -189,7 +189,7 @@ autoregister = setting.user_register
 img = setting.img
 baper = 'SUB YT ZEEONE OFC'
 apiku = 'https://youtu.be/2rWbjrDIAyA'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/G97JsmqAfTkGD1CtykKg6j' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -1267,7 +1267,8 @@ const bayarLimit = (sender, amount) => {
 }
         if(time2 < "05:00:00"){
         var ucapannya2 = `Night 🌚 ${pushname}`
-}
+	
+
 function clockString(ms) {
       let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000);
       let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60;
